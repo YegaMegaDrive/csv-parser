@@ -1,0 +1,15 @@
+
+spring.data.mongodb.uri: mongodb://localhost:27017/test
+chunk:
+  size: 50000
+
+spring:
+  batch:
+    job:
+      enabled: false
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+server:
+  port: 8081
